@@ -1,0 +1,35 @@
+{
+  "axes_visible": true,
+  "performance": {
+    "max_faces_per_model": 30000,
+    "downsample_step": 1,
+    "deduplicate_vertices": true,
+    "draw_edges": false,
+    "depth_sort": false,
+    "backface_culling": true
+  },
+  "models": [
+    {
+      "path": "models/base.stl",
+      "name": "base",
+      "offset": [0, 0, 0],
+      "rotation_deg": [0, 0, 0],
+      "scale": 1.0,
+      "color": [220, 90, 90],
+      "visible": true,
+      "max_faces": 20000,
+      "backface_culling": true
+    },
+    {
+      "path": "models/arm.stl",
+      "name": "arm",
+      "offset": [0, 0, 35],
+      "rotation_deg": [0, 0, 90],
+      "scale": 1.0,
+      "color": "#66ccff",
+      "visible": true,
+      "max_faces": 15000,
+      "backface_culling": true
+    }
+  ]
+}
