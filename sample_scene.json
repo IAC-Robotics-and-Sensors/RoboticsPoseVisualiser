@@ -29,7 +29,22 @@
       "color": "#66ccff",
       "visible": true,
       "max_faces": 15000,
-      "backface_culling": true
+      "backface_culling": true,
+      "animation": {
+        "enabled": true,
+        "loop": true,
+        "speed": 1.0,
+        "rotation_deg": [
+          [0.0, [0, 0, 0]],
+          [1.0, [0, 0, 35]],
+          [2.0, [0, 0, 0]]
+        ],
+        "position": [
+          [0.0, [0, 0, 0]],
+          [1.0, [0, 18, 0]],
+          [2.0, [0, 0, 0]]
+        ]
+      }
     }
   ]
 }

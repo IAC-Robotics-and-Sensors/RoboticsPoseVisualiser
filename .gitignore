@@ -167,3 +167,4 @@ cython_debug/
 
 # ===== PROJECT SPECIFIC =====
 **/stls
+captures/
